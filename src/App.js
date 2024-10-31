@@ -1,24 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h1>Bienvenue dans mon Application PWA !</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Ceci est une application progressive web que vous pouvez ajouter à
+          votre écran d'accueil.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+
+      <section>
+        <h2>Liste des fonctionnalités :</h2>
+        <ul>
+          <li>Fonctionne hors ligne</li>
+          <li>Expérience en plein écran</li>
+          <li>Mise en cache rapide</li>
+          <li>Optimisée pour iPhone</li>
+        </ul>
+      </section>
     </div>
   );
 }
